@@ -36,7 +36,7 @@ try:
 
         chart = (
             alt.Chart(df)
-            .mark_line()
+            .mark_circle()
             .encode(
                 x=alt.X("stichtag", title="Stichtag"),
                 y=alt.Y("einwohner", title="Einwohner"),
